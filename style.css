@@ -38,6 +38,10 @@ button{
     font-weight: bold;
     margin-top: 10px;
 }
+span{
+    color: red;
+    font-size: 16px;
+}
 
 @media screen and (max-width: 700px) {
     .form-container {
@@ -56,4 +60,4 @@ button{
         width: 100%;
     }
 }
-    
+

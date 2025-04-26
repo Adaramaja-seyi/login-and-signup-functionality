@@ -1,0 +1,59 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blue;
+}
+
+.form-container{
+    width: 40%;
+    background-color: rgb(206, 215, 228);
+    margin: auto;
+    margin-top: 5%;
+    /* height: 10px; */
+    padding: 30px;
+    border-radius: 12px;
+}
+#submits{
+    margin-left: 60px;
+    width: 70%;
+}
+#submit{
+    margin-left: 60px;
+    width: 70%;
+}
+#loginForm{
+    margin-top: 9%;
+}
+input{
+    margin-bottom: 5px;
+}
+button{
+    margin-bottom: 3px;
+}
+.show {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 700px) {
+    .form-container {
+        width: 98%;
+        margin-top: 10%;
+        padding: 20px;
+    }
+    #submits, #submit {
+        margin-left: 0;
+        width: 100%;
+    }
+    #loginForm {
+        margin-top: 5%;
+    }
+    input, button {
+        width: 100%;
+    }
+}
+    
